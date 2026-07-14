@@ -16,7 +16,7 @@ openpyxl==3.1.5
 anthropic==0.42.0             # Claude Sonnet vision OCR (ANTHROPIC_API_KEY)
 google-genai==1.2.0           # Gemini vision OCR (GEMINI_API_KEY) — provides `from google import genai`
 openai==1.59.6                # GPT-4o vision OCR (OPENAI_API_KEY)
-
+tesseract
 # ---- Local OCR fallback (used when no AI Vision API key is configured) --------------
 pdfplumber==0.11.4            # native PDF text extraction
 pytesseract==0.3.13           # Tesseract OCR wrapper for scanned PDFs/images
